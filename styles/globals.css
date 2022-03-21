@@ -2,12 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --blue: #000aff;
+  --indigo: #6610f2;
+  --purple: #613d7c;
+  --pink: #ff92c9;
+  --red: #ff3465;
+  --orange: #f0ad4e;
+  --yellow: #ffe713;
+  --green: #01eb95;
+  --teal: #5bc0de;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #000aff;
+  --secondary: #9194af;
+  --success: #01eb95;
+  --info: #5bc0de;
+  --warning: #ffe713;
+  --danger: #ff3465;
+  --light: #f8f9fa;
+  --dark: #00010f;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Satoshi', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-weight: 500;
+  color: var(--dark);
 }
 
 a {
@@ -15,6 +50,8 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+.effect {
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--dark);
 }
