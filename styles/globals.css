@@ -50,6 +50,29 @@ a {
   text-decoration: none;
 }
 
+.triangle {
+  width: 0;
+  height: 0;
+  border-bottom: 96px var(--blue) solid;
+  border-left: 112px var(--dark) solid;
+  position: relative;
+}
+
+.triangle::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  width: 0;
+  height: 0;
+  border-bottom: 96px var(--blue) solid;
+  border-left: 112px transparent solid;
+  opacity: 0.08;
+  transform-origin: 0 0;
+  transform: rotate(10deg);
+}
+
 .effect {
   -webkit-text-fill-color: white;
   -webkit-text-stroke-width: 2px;

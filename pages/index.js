@@ -1,12 +1,16 @@
+import Main from '../components/Main';
+import About from '../components/About';
 import Connect from '../components/Connect';
-import Special from '../components/Special';
+import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
 export default function Home() {
   return (
     <div>
+      <Main />
+      <About />
       <Connect />
-      <Special />
+      <Contact />
       <Footer />
     </div>
   );

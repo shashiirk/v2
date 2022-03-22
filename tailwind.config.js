@@ -5,7 +5,8 @@ module.exports = {
   ],
   theme: {
     maxWidth: {
-      custom: '1180px',
+      footer: '1180px',
+      else: '1244px',
     },
     extend: {
       colors: {
