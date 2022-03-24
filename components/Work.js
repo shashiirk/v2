@@ -1,0 +1,174 @@
+const Work = () => {
+  return (
+    <div className="max-w-work w-full p-4 -mt-28 mx-auto">
+      <div className="flex flex-col-reverse small-laptop:flex-row mb-32 shadow-lg">
+        <div className="w-full small-laptop:w-1/2 px-8 py-12 phone:px-12 phone:py-16 bg-emerald-200 flex flex-col justify-center">
+          <div className="mb-8 text-4xl tablet:text-6xl font-black">Tiptop</div>
+          <div className="mb-8 text-xl">
+            A fake online shopping application where you can shop men's
+            clothing. It also provides features such as wishlist management,
+            cart management etc.
+          </div>
+          <ul className="mb-9 flex flex-wrap gap-2 phone:gap-4">
+            <li className="bg-white py-1 px-2">Next.js</li>
+            <li className="bg-white py-1 px-2">Redux</li>
+            <li className="bg-white py-1 px-2">styled-components</li>
+            <li className="bg-white py-1 px-2">Firebase</li>
+          </ul>
+          <div>
+            <a
+              href="https://tiptopstore.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block border border-dark bg-dark text-white text-xl font-bold px-6 py-3 mr-4 phone:mr-8 phone:px-8 phone:py-4"
+            >
+              View Live
+            </a>
+            <a
+              href="https://github.com/shashiirk/tiptop"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block border border-dark text-xl font-bold px-6 py-3 phone:px-8 phone:py-4"
+            >
+              See Code
+            </a>
+          </div>
+        </div>
+        <div className="bg-emerald-200 w-full small-laptop:w-1/2 small-laptop:flex">
+          <img
+            src="https://cdn.dribbble.com/users/883236/screenshots/3788436/day_391_projects_list_ui_design-.png"
+            alt="image"
+            className="block mx-auto object-cover"
+          />
+        </div>
+      </div>
+      <div className="flex flex-col-reverse small-laptop:flex-row mb-32 shadow-lg">
+        <div className="w-full small-laptop:w-1/2 px-8 py-12 phone:px-12 phone:py-16 bg-sky-200 flex flex-col justify-center">
+          <div className="mb-8 text-4xl tablet:text-6xl font-black">Rhino</div>
+          <div className="mb-8 text-xl">
+            Rhino helps you in understanding where your money is actually going
+            in and how it is coming to you by tracking all your spending and
+            gaining.
+          </div>
+          <ul className="mb-9 flex flex-wrap gap-2 phone:gap-4">
+            <li className="bg-white py-1 px-2">React</li>
+            <li className="bg-white py-1 px-2">Context</li>
+            <li className="bg-white py-1 px-2">styled-components</li>
+            <li className="bg-white py-1 px-2">Firebase</li>
+          </ul>
+          <div>
+            <a
+              href="https://the-rhino-app.web.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block border border-dark bg-dark text-white text-xl font-bold px-6 py-3 mr-4 phone:mr-8 phone:px-8 phone:py-4"
+            >
+              View Live
+            </a>
+            <a
+              href="https://github.com/shashiirk/rhino"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block border border-dark text-xl font-bold px-6 py-3 phone:px-8 phone:py-4"
+            >
+              See Code
+            </a>
+          </div>
+        </div>
+        <div className="bg-sky-200 w-full small-laptop:w-1/2 small-laptop:flex">
+          <img
+            src="https://cdn.dribbble.com/users/883236/screenshots/3788436/day_391_projects_list_ui_design-.png"
+            alt="image"
+            className="block mx-auto object-cover"
+          />
+        </div>
+      </div>
+      <div className="flex flex-col-reverse small-laptop:flex-row mb-32 shadow-lg">
+        <div className="w-full small-laptop:w-1/2 px-8 py-12 phone:px-12 phone:py-16 bg-indigo-200 flex flex-col justify-center">
+          <div className="mb-8 text-4xl tablet:text-6xl font-black">
+            Crypto Prices
+          </div>
+          <div className="mb-8 text-xl">
+            It is an application that fetches the live prices of
+            cryptocurrencies with the help of CoinGecko API and displays it to
+            the user with a stunning User Interface.
+          </div>
+          <ul className="mb-9 flex flex-wrap gap-2 phone:gap-4">
+            <li className="bg-white py-1 px-2">React</li>
+            <li className="bg-white py-1 px-2">Context</li>
+            <li className="bg-white py-1 px-2">styled-components</li>
+          </ul>
+          <div>
+            <a
+              href="https://the-crypto-prices.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block border border-dark bg-dark text-white text-xl font-bold px-6 py-3 mr-4 phone:mr-8 phone:px-8 phone:py-4"
+            >
+              View Live
+            </a>
+            <a
+              href="https://github.com/shashiirk/crypto-prices"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block border border-dark text-xl font-bold px-6 py-3 phone:px-8 phone:py-4"
+            >
+              See Code
+            </a>
+          </div>
+        </div>
+        <div className="bg-indigo-200 w-full small-laptop:w-1/2 small-laptop:flex">
+          <img
+            src="https://cdn.dribbble.com/users/883236/screenshots/3788436/day_391_projects_list_ui_design-.png"
+            alt="image"
+            className="block mx-auto object-cover"
+          />
+        </div>
+      </div>
+      <div className="flex flex-col-reverse small-laptop:flex-row mb-32 shadow-lg">
+        <div className="w-full small-laptop:w-1/2 px-8 py-12 phone:px-12 phone:py-16 bg-rose-200 flex flex-col justify-center">
+          <div className="mb-8 text-4xl tablet:text-6xl font-black">
+            Fake Tweet Generator
+          </div>
+          <div className="mb-8 text-xl">
+            With this tool you can create convincing fake tweet images. This
+            tool is completely customizable so you can choose any name, any
+            content, any time, any number of likes and many more.
+          </div>
+          <ul className="mb-9 flex flex-wrap gap-2 phone:gap-4">
+            <li className="bg-white py-1 px-2">HTML</li>
+            <li className="bg-white py-1 px-2">CSS</li>
+            <li className="bg-white py-1 px-2">JavaScript</li>
+          </ul>
+          <div>
+            <a
+              href="https://shashiirk.github.io/fake-tweet-generator"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block border border-dark bg-dark text-white text-xl font-bold px-6 py-3 mr-4 phone:mr-8 phone:px-8 phone:py-4"
+            >
+              View Live
+            </a>
+            <a
+              href="https://github.com/shashiirk/fake-tweet-generator"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block border border-dark text-xl font-bold px-6 py-3 phone:px-8 phone:py-4"
+            >
+              See Code
+            </a>
+          </div>
+        </div>
+        <div className="bg-rose-200 w-full small-laptop:w-1/2 small-laptop:flex">
+          <img
+            src="https://cdn.dribbble.com/users/883236/screenshots/3788436/day_391_projects_list_ui_design-.png"
+            alt="image"
+            className="block mx-auto object-cover"
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Work;

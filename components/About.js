@@ -1,9 +1,9 @@
 const About = () => {
   return (
     <div className="w-full bg-blue">
-      <div className="max-w-else w-full mx-auto px-8 pt-16 pb-60 text-white flex">
-        <div className="w-full mr-8">
-          <div className="mb-8 text-6xl font-bold">About.</div>
+      <div className="max-w-else w-full mx-auto px-8 pt-16 pb-60 text-white flex flex-col tablet:flex-row">
+        <div className="w-full tablet:mr-8">
+          <div className="mb-8 text-5xl tablet:text-6xl font-black">About.</div>
           <div className="text-xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo illo
             rem dolorum et cum, totam mollitia accusantium debitis itaque harum

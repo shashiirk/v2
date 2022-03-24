@@ -4,24 +4,8 @@
 
 :root {
   --blue: #000aff;
-  --indigo: #6610f2;
-  --purple: #613d7c;
-  --pink: #ff92c9;
-  --red: #ff3465;
-  --orange: #f0ad4e;
   --yellow: #ffe713;
-  --green: #01eb95;
-  --teal: #5bc0de;
-  --cyan: #17a2b8;
-  --white: #fff;
-  --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #000aff;
-  --secondary: #9194af;
-  --success: #01eb95;
-  --info: #5bc0de;
-  --warning: #ffe713;
-  --danger: #ff3465;
   --light: #f8f9fa;
   --dark: #00010f;
   --breakpoint-xs: 0;
@@ -53,8 +37,8 @@ a {
 .triangle {
   width: 0;
   height: 0;
-  border-bottom: 96px var(--blue) solid;
-  border-left: 112px var(--dark) solid;
+  border-bottom: 64px var(--blue) solid;
+  border-left: 78px var(--dark) solid;
   position: relative;
 }
 
@@ -66,11 +50,23 @@ a {
   z-index: -1;
   width: 0;
   height: 0;
-  border-bottom: 96px var(--blue) solid;
-  border-left: 112px transparent solid;
+  border-bottom: 64px var(--blue) solid;
+  border-left: 78px transparent solid;
   opacity: 0.08;
   transform-origin: 0 0;
   transform: rotate(10deg);
+}
+
+@screen small-phone {
+  .triangle {
+    border-bottom: 96px var(--blue) solid;
+    border-left: 112px var(--dark) solid;
+  }
+
+  .triangle::before {
+    border-bottom: 96px var(--blue) solid;
+    border-left: 112px transparent solid;
+  }
 }
 
 .effect {
