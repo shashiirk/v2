@@ -7,7 +7,7 @@ const Footer = () => {
             <p>
               View source on{' '}
               <a
-                href="https://stefivanov.com"
+                href="https://github.com/shashiirk/v2"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover-hover:hover:underline hover-none:active:underline"
