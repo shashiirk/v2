@@ -35,7 +35,7 @@ const Connect = () => {
               <LinkedInIcon />
             </div>
             <div className="text-xl mb-8 text-left leading-normal">
-              Want to discuss something related to frontend? Let's make a
+              Want to discuss something related to frontend? Let&apos;s make a
               connection first 🤝.
             </div>
             <div className="text-xl">@shashiirk</div>
@@ -52,8 +52,8 @@ const Connect = () => {
               <InstagramIcon />
             </div>
             <div className="text-xl mb-8 text-left leading-normal">
-              Connect with me on my most favourite fun place and let's have a
-              chat 🤟.
+              Connect with me on my most favourite fun place and let&apos;s have
+              a chat 🤟.
             </div>
             <div className="text-xl">@shashiirk</div>
           </a>

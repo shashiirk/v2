@@ -1,11 +1,15 @@
+import Image from 'next/image';
+
+import fakeTweetGeneratorBanner from '../assets/images/ftg.png';
+
 const Work = () => {
   return (
     <div className="max-w-work w-full p-4 -mt-28 mx-auto">
-      <div className="flex flex-col-reverse small-laptop:flex-row mb-32 shadow-lg">
+      <div className="bg-slate-50 flex items-center flex-col-reverse small-laptop:flex-row mb-32 shadow-lg">
         <div className="w-full small-laptop:w-1/2 px-8 py-12 phone:px-12 phone:py-16 bg-emerald-200 flex flex-col justify-center">
           <div className="mb-8 text-4xl tablet:text-6xl font-black">Tiptop</div>
           <div className="mb-8 text-xl">
-            A fake online shopping application where you can shop men's
+            A fake online shopping application where you can shop men&apos;s
             clothing. It also provides features such as wishlist management,
             cart management etc.
           </div>
@@ -34,15 +38,11 @@ const Work = () => {
             </a>
           </div>
         </div>
-        <div className="bg-emerald-200 w-full small-laptop:w-1/2 small-laptop:flex">
-          <img
-            src="https://cdn.dribbble.com/users/883236/screenshots/3788436/day_391_projects_list_ui_design-.png"
-            alt="image"
-            className="block mx-auto object-cover"
-          />
+        <div className="w-full small-laptop:w-1/2 ">
+          <Image src={fakeTweetGeneratorBanner} layout="responsive" />
         </div>
       </div>
-      <div className="flex flex-col-reverse small-laptop:flex-row mb-32 shadow-lg">
+      <div className="bg-slate-50 flex items-center flex-col-reverse small-laptop:flex-row mb-32 shadow-lg">
         <div className="w-full small-laptop:w-1/2 px-8 py-12 phone:px-12 phone:py-16 bg-sky-200 flex flex-col justify-center">
           <div className="mb-8 text-4xl tablet:text-6xl font-black">Rhino</div>
           <div className="mb-8 text-xl">
@@ -75,15 +75,11 @@ const Work = () => {
             </a>
           </div>
         </div>
-        <div className="bg-sky-200 w-full small-laptop:w-1/2 small-laptop:flex">
-          <img
-            src="https://cdn.dribbble.com/users/883236/screenshots/3788436/day_391_projects_list_ui_design-.png"
-            alt="image"
-            className="block mx-auto object-cover"
-          />
+        <div className="w-full small-laptop:w-1/2 ">
+          <Image src={fakeTweetGeneratorBanner} layout="responsive" />
         </div>
       </div>
-      <div className="flex flex-col-reverse small-laptop:flex-row mb-32 shadow-lg">
+      <div className="bg-slate-50 flex items-center flex-col-reverse small-laptop:flex-row mb-32 shadow-lg">
         <div className="w-full small-laptop:w-1/2 px-8 py-12 phone:px-12 phone:py-16 bg-indigo-200 flex flex-col justify-center">
           <div className="mb-8 text-4xl tablet:text-6xl font-black">
             Crypto Prices
@@ -117,15 +113,11 @@ const Work = () => {
             </a>
           </div>
         </div>
-        <div className="bg-indigo-200 w-full small-laptop:w-1/2 small-laptop:flex">
-          <img
-            src="https://cdn.dribbble.com/users/883236/screenshots/3788436/day_391_projects_list_ui_design-.png"
-            alt="image"
-            className="block mx-auto object-cover"
-          />
+        <div className="w-full small-laptop:w-1/2 ">
+          <Image src={fakeTweetGeneratorBanner} layout="responsive" />
         </div>
       </div>
-      <div className="flex flex-col-reverse small-laptop:flex-row mb-32 shadow-lg">
+      <div className="bg-slate-50 flex items-center flex-col-reverse small-laptop:flex-row mb-32 shadow-lg">
         <div className="w-full small-laptop:w-1/2 px-8 py-12 phone:px-12 phone:py-16 bg-rose-200 flex flex-col justify-center">
           <div className="mb-8 text-4xl tablet:text-6xl font-black">
             Fake Tweet Generator
@@ -159,12 +151,8 @@ const Work = () => {
             </a>
           </div>
         </div>
-        <div className="bg-rose-200 w-full small-laptop:w-1/2 small-laptop:flex">
-          <img
-            src="https://cdn.dribbble.com/users/883236/screenshots/3788436/day_391_projects_list_ui_design-.png"
-            alt="image"
-            className="block mx-auto object-cover"
-          />
+        <div className="w-full small-laptop:w-1/2 ">
+          <Image src={fakeTweetGeneratorBanner} layout="responsive" />
         </div>
       </div>
     </div>
