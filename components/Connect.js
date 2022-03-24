@@ -1,7 +1,9 @@
+import { GitHubIcon, InstagramIcon, LinkedInIcon } from '../assets/icons';
+
 const Connect = () => {
   return (
-    <div className="max-w-footer w-full mx-auto mb-20 px-8">
-      <div className="mb-8 small-laptop:mb-24 text-5xl phone:text-6xl font-black">
+    <div className="max-w-footer w-full mx-auto mb-20 small-phone:px-8">
+      <div className="mb-8 small-laptop:mb-24 text-5xl phone:text-6xl font-black ml-8 small-phone:ml-0">
         Get In Touch.
       </div>
       <div className="w-full grid grid-cols-1 tablet:grid-cols-3 font-bold small-laptop:relative small-laptop:left-8">
@@ -12,10 +14,12 @@ const Connect = () => {
             rel="noopener noreferrer"
             className="w-full p-12 small-laptop:p-24"
           >
-            <div className="text-2xl mb-8">Github</div>
+            <div className="mb-8 flex justify-center">
+              <GitHubIcon />
+            </div>
             <div className="text-xl mb-8 text-left leading-normal">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptate inventore error doloribus alias, dolores blanditiis.
+              Would you like to have a look at my other projects? You can find
+              them all here 🙌.
             </div>
             <div className="text-xl">@shashiirk</div>
           </a>
@@ -27,10 +31,12 @@ const Connect = () => {
             rel="noopener noreferrer"
             className="w-full p-12 small-laptop:p-24"
           >
-            <div className="text-2xl mb-8">LinkedIn</div>
+            <div className="mb-8 flex justify-center">
+              <LinkedInIcon />
+            </div>
             <div className="text-xl mb-8 text-left leading-normal">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus
-              labore reprehenderit animi, hic sapiente explicabo!
+              Want to discuss something related to frontend? Let's make a
+              connection first 🤝.
             </div>
             <div className="text-xl">@shashiirk</div>
           </a>
@@ -42,10 +48,12 @@ const Connect = () => {
             rel="noopener noreferrer"
             className="w-full p-12 small-laptop:p-24"
           >
-            <div className="text-2xl mb-8">Instagram</div>
+            <div className="mb-8 flex justify-center">
+              <InstagramIcon />
+            </div>
             <div className="text-xl mb-8 text-left leading-normal">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam
-              aspernatur illum reprehenderit ipsum! Impedit, delectus.
+              Connect with me on my most favourite fun place and let's have a
+              chat 🤟.
             </div>
             <div className="text-xl">@shashiirk</div>
           </a>

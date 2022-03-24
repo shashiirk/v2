@@ -27,6 +27,7 @@ body {
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: 500;
   color: var(--dark);
+  -webkit-tap-highlight-color: transparent;
 }
 
 a {

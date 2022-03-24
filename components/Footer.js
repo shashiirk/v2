@@ -1,11 +1,34 @@
 const Footer = () => {
   return (
     <div className="w-full bg-blue mt-12 p-8">
-      <div className="bg-dark text-white max-w-footer w-full mx-auto -mt-20 p-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ullam
-        assumenda, vitae distinctio nulla veniam. Obcaecati, eligendi magnam
-        laborum libero saepe velit maxime sit reiciendis suscipit in ducimus
-        explicabo tenetur.
+      <div className="bg-dark text-white text-center max-w-footer w-full mx-auto -mt-20 p-8">
+        <div className="w-fit mx-auto ">
+          <div className="flex flex-col phone:flex-row items-center">
+            <p>
+              View source on{' '}
+              <a
+                href="https://stefivanov.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover-hover:hover:underline hover-none:active:underline"
+              >
+                GitHub
+              </a>
+            </p>
+            <span className="hidden phone:inline-block w-1 h-1 bg-white rounded-full mx-2"></span>
+            <p>
+              Design stolen from{' '}
+              <a
+                href="https://stefivanov.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover-hover:hover:underline  hover-none:active:underline"
+              >
+                stefivanov.com
+              </a>
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );

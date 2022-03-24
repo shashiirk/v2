@@ -30,6 +30,8 @@ module.exports = {
       'small-laptop': '992px',
       laptop: '1024px',
       desktop: '1280px',
+      'hover-hover': { raw: '(hover: hover)' },
+      'hover-none': { raw: '(hover: none)' },
     },
   },
   plugins: [],
