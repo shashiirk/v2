@@ -13,14 +13,7 @@ module.exports = {
       colors: {
         blue: 'var(--blue)',
         yellow: 'var(--yellow)',
-        grayDark: 'var(--gray-dark)',
-        light: 'var(--light)',
         dark: 'var(--dark)',
-        breakpointXS: 'var(--breakpoint-xs)',
-        breakpointSM: 'var(--breakpoint-sm)',
-        breakpointMD: 'var(--breakpoint-md)',
-        breakpointLG: 'var(--breakpoint-lg)',
-        breakpointXL: 'var(--breakpoint-xl)',
       },
     },
     screens: {

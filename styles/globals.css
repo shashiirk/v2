@@ -5,14 +5,7 @@
 :root {
   --blue: #000aff;
   --yellow: #ffe713;
-  --gray-dark: #343a40;
-  --light: #f8f9fa;
   --dark: #00010f;
-  --breakpoint-xs: 0;
-  --breakpoint-sm: 576px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 992px;
-  --breakpoint-xl: 1200px;
 }
 
 * {
