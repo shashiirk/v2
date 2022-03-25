@@ -42,7 +42,7 @@ const Work = () => {
           </div>
         </div>
         <div className="w-full small-laptop:w-1/2 ">
-          <Image src={tiptopBanner} alt="Tiptop" layout="responsive" priority />
+          <Image src={tiptopBanner} alt="Tiptop" layout="responsive" />
         </div>
       </div>
       <div className="bg-slate-50 flex items-center flex-col-reverse small-laptop:flex-row mb-32 shadow-lg">
@@ -79,7 +79,7 @@ const Work = () => {
           </div>
         </div>
         <div className="w-full small-laptop:w-1/2 ">
-          <Image src={rhinoBanner} alt="Rhino" layout="responsive" priority />
+          <Image src={rhinoBanner} alt="Rhino" layout="responsive" />
         </div>
       </div>
       <div className="bg-slate-50 flex items-center flex-col-reverse small-laptop:flex-row mb-32 shadow-lg">
@@ -121,7 +121,6 @@ const Work = () => {
             src={cryptoPricesBanner}
             alt="Crypto Prices"
             layout="responsive"
-            priority
           />
         </div>
       </div>
@@ -164,7 +163,6 @@ const Work = () => {
             src={fakeTweetGeneratorBanner}
             alt="fake tweet generator"
             layout="responsive"
-            priority
           />
         </div>
       </div>
