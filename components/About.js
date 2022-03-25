@@ -4,24 +4,28 @@ const About = () => {
       <div className="max-w-else w-full mx-auto px-8 pt-16 pb-60 text-white flex flex-col tablet:flex-row">
         <div className="w-full tablet:mr-8">
           <div className="mb-8 text-5xl tablet:text-6xl font-black">About.</div>
-          <div className="text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo illo
-            rem dolorum et cum, totam mollitia accusantium debitis itaque harum
-            consequuntur voluptas eligendi officia quos nihil doloremque
-            incidunt? Fuga asperiores consectetur quam praesentium corrupti
-            veniam omnis corporis adipisci ipsa accusantium, unde qui sunt esse
-            earum ab ratione perferendis laborum consequatur!
+          <div className="text-xl leading-relaxed mb-8 tablet:mb-0">
+            👋 Hi! I'm Shashikanth Reddy, a frontend developer based in India.
+            Building web applications with appealing design while keeping it's
+            functionality is what I strive for. I'm into frontend development
+            from past one year. Since then I've been building projects to
+            develop my skills. I'm also learning backend development and looking
+            forward to be a full stack developer.
           </div>
         </div>
-        <div className="w-full text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat esse
-          asperiores, laudantium quos, inventore explicabo reprehenderit omnis
-          reiciendis sed quaerat error, magnam adipisci nesciunt iure modi velit
-          nostrum voluptatibus officiis aut dolorem sequi? Sed quaerat possimus
-          neque exercitationem dignissimos aperiam ipsum recusandae natus et
-          molestias quis voluptatem deleniti omnis laboriosam, quisquam, optio
-          expedita aut explicabo quasi harum ad doloribus. Necessitatibus
-          facilis placeat, cupiditate numquam velit sequi perspiciatis, eum id
+        <div className="w-full text-xl leading-relaxed">
+          <p className="mb-8">
+            Currently, I'm pursuing under-graduation in the field of Information
+            Technology. I'm interested in JavaScript technologies. Some of the
+            frontend technologies which I worked with and would like to work
+            with in the future are Next.js, React, Redux, Styled components,
+            Tailwind CSS, Firebase etc.
+          </p>
+          <p>
+            I'm actively looking for opportunities where I can utilize my skills
+            and learn new things at the same time. Do consider me if you have
+            one.
+          </p>
         </div>
       </div>
     </div>
