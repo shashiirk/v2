@@ -4,6 +4,43 @@ export default function Document() {
   return (
     <Html>
       <Head>
+        <meta
+          name="title"
+          content="Shashikanth Reddy - Frontend Developer based in India"
+        />
+        <meta
+          name="description"
+          content="Hello,  I'm Shashikanth Reddy.  A developer who loves building awesome looking web applications."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://shashi.vercel.app" />
+        <meta
+          property="og:title"
+          content="Shashikanth Reddy - Frontend Developer based in India"
+        />
+        <meta
+          property="og:description"
+          content="Hello,  I'm Shashikanth Reddy.  A developer who loves building awesome looking web applications."
+        />
+        <meta
+          property="og:image"
+          content="https://user-images.githubusercontent.com/48406108/159946621-229c975c-9d6c-4bf1-ae4d-2b4bec373c39.jpg"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://shashi.vercel.app" />
+        <meta
+          name="twitter:title"
+          content="Shashikanth Reddy - Frontend Developer based in India"
+        />
+        <meta
+          name="twitter:description"
+          content="Hello,  I'm Shashikanth Reddy.  A developer who loves building awesome looking web applications."
+        />
+        <meta
+          name="twitter:image"
+          content="https://user-images.githubusercontent.com/48406108/159946621-229c975c-9d6c-4bf1-ae4d-2b4bec373c39.jpg"
+        />
+
         <link
           rel="apple-touch-icon"
           sizes="180x180"
