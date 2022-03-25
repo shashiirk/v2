@@ -4,7 +4,7 @@
   </a>
 </p>
 
-![Shashikanth Reddy's portfolio banner](https://user-images.githubusercontent.com/48406108/159946621-229c975c-9d6c-4bf1-ae4d-2b4bec373c39.jpg)
+![Shashikanth Reddy's portfolio banner](https://user-images.githubusercontent.com/48406108/160058749-383f1877-7096-4c34-9dcd-bb416e432492.jpg)
 
 ## Tools
 

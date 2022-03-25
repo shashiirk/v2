@@ -24,7 +24,7 @@ export default function Document() {
         />
         <meta
           property="og:image"
-          content="https://user-images.githubusercontent.com/48406108/159946621-229c975c-9d6c-4bf1-ae4d-2b4bec373c39.jpg"
+          content="https://user-images.githubusercontent.com/48406108/160058749-383f1877-7096-4c34-9dcd-bb416e432492.jpg"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://shashi.vercel.app" />
@@ -38,7 +38,7 @@ export default function Document() {
         />
         <meta
           name="twitter:image"
-          content="https://user-images.githubusercontent.com/48406108/159946621-229c975c-9d6c-4bf1-ae4d-2b4bec373c39.jpg"
+          content="https://user-images.githubusercontent.com/48406108/160058749-383f1877-7096-4c34-9dcd-bb416e432492.jpg"
         />
 
         <link
