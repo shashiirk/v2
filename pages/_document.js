@@ -60,7 +60,7 @@ export default function Document() {
         />
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ffffff" />
-        <meta name="theme-color" content="ffffff" />
+        <meta name="theme-color" content="#ffffff" />
         <link
           href="https://api.fontshare.com/css?f[]=satoshi@300,400,500,700,900&display=swap"
           rel="stylesheet"
