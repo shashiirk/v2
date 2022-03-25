@@ -11,7 +11,7 @@ const Work = () => {
       <div className="bg-slate-50 flex items-center flex-col-reverse small-laptop:flex-row mb-32 shadow-lg">
         <div className="w-full small-laptop:w-1/2 px-8 py-12 phone:px-12 phone:py-16 bg-emerald-200 flex flex-col justify-center">
           <div className="mb-8 text-4xl tablet:text-6xl font-black">Tiptop</div>
-          <div className="mb-8 text-xl">
+          <div className="mb-8 text-xl leading-relaxed">
             A fake online shopping application where you can shop men&apos;s
             clothing. It also provides features such as wishlist management,
             cart management etc.
@@ -48,7 +48,7 @@ const Work = () => {
       <div className="bg-slate-50 flex items-center flex-col-reverse small-laptop:flex-row mb-32 shadow-lg">
         <div className="w-full small-laptop:w-1/2 px-8 py-12 phone:px-12 phone:py-16 bg-sky-200 flex flex-col justify-center">
           <div className="mb-8 text-4xl tablet:text-6xl font-black">Rhino</div>
-          <div className="mb-8 text-xl">
+          <div className="mb-8 text-xl leading-relaxed">
             Rhino helps you in understanding where your money is actually going
             in and how it is coming to you by tracking all your spending and
             gaining.
@@ -87,7 +87,7 @@ const Work = () => {
           <div className="mb-8 text-4xl tablet:text-6xl font-black">
             Crypto Prices
           </div>
-          <div className="mb-8 text-xl">
+          <div className="mb-8 text-xl leading-relaxed">
             It is an application that fetches the live prices of
             cryptocurrencies with the help of CoinGecko API and displays it to
             the user with a stunning User Interface.
@@ -129,7 +129,7 @@ const Work = () => {
           <div className="mb-8 text-4xl tablet:text-6xl font-black">
             Fake Tweet Generator
           </div>
-          <div className="mb-8 text-xl">
+          <div className="mb-8 text-xl leading-relaxed">
             With this tool you can create convincing fake tweet images. This
             tool is completely customizable so you can choose any name, any
             content, any time, any number of likes and many more.
