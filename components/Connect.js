@@ -6,7 +6,7 @@ const Connect = () => {
       <div className="mb-8 small-laptop:mb-24 text-5xl phone:text-6xl font-black ml-8 small-phone:ml-0">
         Get In Touch.
       </div>
-      <div className="w-full grid grid-cols-1 tablet:grid-cols-3 font-bold small-laptop:relative small-laptop:left-8">
+      <div className="w-full grid grid-cols-1 tablet:grid-cols-3 small-laptop:relative small-laptop:left-8">
         <div className="flex w-full bg-blue text-white text-center">
           <a
             href="https://github.com/shashiirk"
@@ -21,10 +21,10 @@ const Connect = () => {
               Would you like to have a look at my other projects? You can find
               them all here 🙌.
             </div>
-            <div className="text-xl">@shashiirk</div>
+            <div className="text-xl font-bold">@shashiirk</div>
           </a>
         </div>
-        <div className="flex w-full bg-yellow text-center text-3xl font-bold small-laptop:relative small-laptop:bottom-12 small-laptop:right-8">
+        <div className="flex w-full bg-yellow text-center text-3xl small-laptop:relative small-laptop:bottom-12 small-laptop:right-8">
           <a
             href="https://linkedin.com/in/shashiirk"
             target="_blank"
@@ -38,10 +38,10 @@ const Connect = () => {
               Want to discuss something related to frontend? Let&apos;s make a
               connection first 🤝.
             </div>
-            <div className="text-xl">@shashiirk</div>
+            <div className="text-xl font-bold">@shashiirk</div>
           </a>
         </div>
-        <div className="flex w-full bg-dark text-white text-center text-3xl font-bold small-laptop:relative small-laptop:bottom-8 small-laptop:right-16">
+        <div className="flex w-full bg-dark text-white text-center text-3xl small-laptop:relative small-laptop:bottom-8 small-laptop:right-16">
           <a
             href="https://instagram.com/shashiirk"
             target="_blank"
@@ -55,7 +55,7 @@ const Connect = () => {
               Connect with me on my most favourite fun place and let&apos;s have
               a chat 🤟.
             </div>
-            <div className="text-xl">@shashiirk</div>
+            <div className="text-xl font-bold">@shashiirk</div>
           </a>
         </div>
       </div>
