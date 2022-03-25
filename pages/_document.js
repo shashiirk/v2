@@ -10,7 +10,9 @@ export default function Document() {
         />
         <meta
           name="description"
-          content="Hello,  I'm Shashikanth Reddy.  A developer who loves building awesome looking web applications."
+          content="Hi! I'm Shashikanth Reddy, a frontend developer based in India.
+          Building web applications with appealing design while keeping it's
+          functionality is what I strive for."
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://shashi.vercel.app" />
@@ -20,7 +22,9 @@ export default function Document() {
         />
         <meta
           property="og:description"
-          content="Hello,  I'm Shashikanth Reddy.  A developer who loves building awesome looking web applications."
+          content="Hi! I'm Shashikanth Reddy, a frontend developer based in India.
+          Building web applications with appealing design while keeping it's
+          functionality is what I strive for."
         />
         <meta
           property="og:image"
@@ -34,7 +38,9 @@ export default function Document() {
         />
         <meta
           name="twitter:description"
-          content="Hello,  I'm Shashikanth Reddy.  A developer who loves building awesome looking web applications."
+          content="Hi! I'm Shashikanth Reddy, a frontend developer based in India.
+          Building web applications with appealing design while keeping it's
+          functionality is what I strive for."
         />
         <meta
           name="twitter:image"
