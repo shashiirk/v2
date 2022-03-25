@@ -1,6 +1,9 @@
 import Image from 'next/image';
 
-import fakeTweetGeneratorBanner from '../assets/images/ftg.png';
+import tiptopBanner from '../assets/images/tiptop.png';
+import rhinoBanner from '../assets/images/rhino.png';
+import cryptoPricesBanner from '../assets/images/crypto-prices.png';
+import fakeTweetGeneratorBanner from '../assets/images/fake-tweet-generator.png';
 
 const Work = () => {
   return (
@@ -39,7 +42,7 @@ const Work = () => {
           </div>
         </div>
         <div className="w-full small-laptop:w-1/2 ">
-          <Image src={fakeTweetGeneratorBanner} layout="responsive" />
+          <Image src={tiptopBanner} alt="Tiptop" layout="responsive" priority />
         </div>
       </div>
       <div className="bg-slate-50 flex items-center flex-col-reverse small-laptop:flex-row mb-32 shadow-lg">
@@ -76,7 +79,7 @@ const Work = () => {
           </div>
         </div>
         <div className="w-full small-laptop:w-1/2 ">
-          <Image src={fakeTweetGeneratorBanner} layout="responsive" />
+          <Image src={rhinoBanner} alt="Rhino" layout="responsive" priority />
         </div>
       </div>
       <div className="bg-slate-50 flex items-center flex-col-reverse small-laptop:flex-row mb-32 shadow-lg">
@@ -114,7 +117,12 @@ const Work = () => {
           </div>
         </div>
         <div className="w-full small-laptop:w-1/2 ">
-          <Image src={fakeTweetGeneratorBanner} layout="responsive" />
+          <Image
+            src={cryptoPricesBanner}
+            alt="Crypto Prices"
+            layout="responsive"
+            priority
+          />
         </div>
       </div>
       <div className="bg-slate-50 flex items-center flex-col-reverse small-laptop:flex-row mb-32 shadow-lg">
@@ -152,7 +160,12 @@ const Work = () => {
           </div>
         </div>
         <div className="w-full small-laptop:w-1/2 ">
-          <Image src={fakeTweetGeneratorBanner} layout="responsive" />
+          <Image
+            src={fakeTweetGeneratorBanner}
+            alt="fake tweet generator"
+            layout="responsive"
+            priority
+          />
         </div>
       </div>
     </div>
