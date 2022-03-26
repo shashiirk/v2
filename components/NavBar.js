@@ -6,7 +6,7 @@ const NavBar = () => {
         href="https://drive.google.com/file/d/1IbeQ-4AojWnivdFYZjBjpUcjpzyhjfNa/view"
         target="_blank"
         rel="noopener noreferrer"
-        className="bg-yellow mr-6 small-phone:mr-8 px-6 py-2 font-bold text-inherit"
+        className="bg-yellow mr-4 small-phone:mr-8 px-6 py-2 font-bold text-inherit"
       >
         Resume
       </a>
