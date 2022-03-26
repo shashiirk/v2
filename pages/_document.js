@@ -5,10 +5,6 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <meta
-          name="google-site-verification"
-          content="lphPpejMtdj2LPjZyv7s7Z4UR210rVUPNFfH_X53vWg"
-        />
-        <meta
           name="title"
           content="Shashikanth Reddy - Frontend Developer based in India"
         />
