@@ -8,7 +8,7 @@
 
 👋 Hey there! Thanks for checking out my portfolio project. This repository contains all the source code for it.
 
-## Can I use it? 🤔
+## "Can I use it?" 🤔
 
 Yesss! You can use it for your personal portfolio project as well. Attribution is not mandatory but please consider giving me an attribution as it will help me a lot. Also, consider giving it a ⭐ if it really impressed you.
 
