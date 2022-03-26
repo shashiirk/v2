@@ -38,6 +38,10 @@ Start the application
 $ npm run dev
 ```
 
+## Deployment
+
+You can deploy and host with [Vercel](https://vercel.com).
+
 ## Licence
 
 This project is licensed under [MIT](LICENSE).
