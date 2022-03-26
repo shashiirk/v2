@@ -22,12 +22,12 @@ const Work = () => {
             <li className="bg-white py-1 px-2">styled-components</li>
             <li className="bg-white py-1 px-2">Firebase</li>
           </ul>
-          <div>
+          <div className="flex flex-wrap gap-4">
             <a
               href="https://tiptopstore.vercel.app"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block border border-dark bg-dark text-white text-xl font-bold px-6 py-3 mr-4 phone:mr-8 phone:px-8 phone:py-4"
+              className="inline-block border border-dark bg-dark text-white text-lg font-bold px-6 py-3 phone:px-8"
             >
               View Live
             </a>
@@ -35,7 +35,7 @@ const Work = () => {
               href="https://github.com/shashiirk/tiptop"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block border border-dark text-xl font-bold px-6 py-3 phone:px-8 phone:py-4"
+              className="inline-block border border-dark text-lg font-bold px-6 py-3 phone:px-8"
             >
               See Code
             </a>
@@ -55,16 +55,15 @@ const Work = () => {
           </div>
           <ul className="mb-9 flex flex-wrap gap-2 phone:gap-4">
             <li className="bg-white py-1 px-2">React</li>
-            <li className="bg-white py-1 px-2">Context</li>
             <li className="bg-white py-1 px-2">styled-components</li>
             <li className="bg-white py-1 px-2">Firebase</li>
           </ul>
-          <div>
+          <div className="flex flex-wrap gap-4">
             <a
               href="https://the-rhino-app.web.app"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block border border-dark bg-dark text-white text-xl font-bold px-6 py-3 mr-4 phone:mr-8 phone:px-8 phone:py-4"
+              className="inline-block border border-dark bg-dark text-white text-lg font-bold px-6 py-3 phone:px-8"
             >
               View Live
             </a>
@@ -72,7 +71,7 @@ const Work = () => {
               href="https://github.com/shashiirk/rhino"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block border border-dark text-xl font-bold px-6 py-3 phone:px-8 phone:py-4"
+              className="inline-block border border-dark text-lg font-bold px-6 py-3 phone:px-8"
             >
               See Code
             </a>
@@ -94,15 +93,14 @@ const Work = () => {
           </div>
           <ul className="mb-9 flex flex-wrap gap-2 phone:gap-4">
             <li className="bg-white py-1 px-2">React</li>
-            <li className="bg-white py-1 px-2">Context</li>
             <li className="bg-white py-1 px-2">styled-components</li>
           </ul>
-          <div>
+          <div className="flex flex-wrap gap-4">
             <a
               href="https://the-crypto-prices.netlify.app"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block border border-dark bg-dark text-white text-xl font-bold px-6 py-3 mr-4 phone:mr-8 phone:px-8 phone:py-4"
+              className="inline-block border border-dark bg-dark text-white text-lg font-bold px-6 py-3 phone:px-8"
             >
               View Live
             </a>
@@ -110,7 +108,7 @@ const Work = () => {
               href="https://github.com/shashiirk/crypto-prices"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block border border-dark text-xl font-bold px-6 py-3 phone:px-8 phone:py-4"
+              className="inline-block border border-dark text-lg font-bold px-6 py-3 phone:px-8"
             >
               See Code
             </a>
@@ -139,12 +137,12 @@ const Work = () => {
             <li className="bg-white py-1 px-2">CSS</li>
             <li className="bg-white py-1 px-2">JavaScript</li>
           </ul>
-          <div>
+          <div className="flex flex-wrap gap-4">
             <a
               href="https://shashiirk.github.io/fake-tweet-generator"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block border border-dark bg-dark text-white text-xl font-bold px-6 py-3 mr-4 phone:mr-8 phone:px-8 phone:py-4"
+              className="inline-block border border-dark bg-dark text-white text-lg font-bold px-6 py-3 phone:px-8"
             >
               View Live
             </a>
@@ -152,7 +150,7 @@ const Work = () => {
               href="https://github.com/shashiirk/fake-tweet-generator"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block border border-dark text-xl font-bold px-6 py-3 phone:px-8 phone:py-4"
+              className="inline-block border border-dark text-lg font-bold px-6 py-3 phone:px-8"
             >
               See Code
             </a>
