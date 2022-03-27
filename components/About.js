@@ -5,26 +5,24 @@ const About = () => {
         <div className="w-full tablet:mr-8">
           <div className="mb-8 text-5xl tablet:text-6xl font-black">About.</div>
           <div className="text-xl leading-relaxed mb-8 tablet:mb-0">
-            👋 Hi! I&apos;m Shashikanth Reddy, a frontend developer based in
-            India. Building web applications with appealing design while keeping
-            it&apos;s functionality is what I strive for. I&apos;m into frontend
-            development from past one year. Since then I&apos;ve been building
-            projects to develop my skills. I&apos;m also learning backend
-            development and looking forward to be a full stack developer.
+            👋 Hi! I&apos;m Shashikanth Reddy, a passionate frontend developer
+            based in India. I strive to construct web applications that are
+            appealing in design while maintaining their functionality. I&apos;ve
+            been working in frontend development for over a year now. I always
+            build projects to hone my skills.
           </div>
         </div>
         <div className="w-full text-xl leading-relaxed">
           <p className="mb-8">
-            Currently, I&apos;m pursuing under-graduation in the field of
-            Information Technology. I&apos;m interested in JavaScript
-            technologies. Some of the frontend technologies which I worked with
-            and would like to work with in the future are Next.js, React, Redux,
-            Styled components, Tailwind CSS, Firebase etc.
+            Currently, I&apos;m pursuing a bachelor&apos;s degree in Information
+            Technology. I am interested in JavaScript technologies. Some
+            frontend technologies that I have worked with and would like to work
+            with in the future are Next.JS, React, Redux, Styled components,
+            Tailwind CSS, Firebase, etc.
           </p>
           <p>
-            I&apos;m actively looking for opportunities where I can utilize my
-            skills and learn new things at the same time. Do consider me if you
-            have one.
+            I&apos;m actively seeking roles where I can broaden my knowledge and
+            utilize my skills. If you have any for me, please consider me.
           </p>
         </div>
       </div>
