@@ -4,27 +4,17 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <meta
-          name="title"
-          content="Shashikanth Reddy - Frontend Developer based in India"
-        />
+        <meta name="title" content="Shashikanth Reddy" />
         <meta
           name="description"
-          content="Hi! I'm Shashikanth Reddy, a frontend developer based in India.
-          Building web applications with appealing design while keeping it's
-          functionality is what I strive for."
+          content="Hi, I'm Shashikanth Reddy. I'm a full-stack developer from US, building web applications that are both functional and visually appealing."
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://shashi.vercel.app" />
-        <meta
-          property="og:title"
-          content="Shashikanth Reddy - Frontend Developer based in India"
-        />
+        <meta property="og:title" content="Shashikanth Reddy" />
         <meta
           property="og:description"
-          content="Hi! I'm Shashikanth Reddy, a frontend developer based in India.
-          Building web applications with appealing design while keeping it's
-          functionality is what I strive for."
+          content="Hi, I'm Shashikanth Reddy. I'm a full-stack developer from US, building web applications that are both functional and visually appealing."
         />
         <meta
           property="og:image"
@@ -32,15 +22,10 @@ export default function Document() {
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://shashi.vercel.app" />
-        <meta
-          name="twitter:title"
-          content="Shashikanth Reddy - Frontend Developer based in India"
-        />
+        <meta name="twitter:title" content="Shashikanth Reddy" />
         <meta
           name="twitter:description"
-          content="Hi! I'm Shashikanth Reddy, a frontend developer based in India.
-          Building web applications with appealing design while keeping it's
-          functionality is what I strive for."
+          content="Hi, I'm Shashikanth Reddy. I'm a full-stack developer from US, building web applications that are both functional and visually appealing."
         />
         <meta
           name="twitter:image"

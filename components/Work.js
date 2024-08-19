@@ -8,7 +8,7 @@ import fakeTweetGeneratorBanner from '../assets/images/fake-tweet-generator.png'
 const Work = () => {
   return (
     <div className="max-w-work w-full p-4 -mt-28 mx-auto">
-      <div className="bg-slate-50 flex items-center flex-col-reverse small-laptop:flex-row mb-32 shadow-lg">
+      <div className="bg-slate-50 flex items-stretch flex-col-reverse small-laptop:flex-row mb-32 shadow-lg">
         <div className="w-full small-laptop:w-1/2 px-8 py-12 phone:px-12 phone:py-16 bg-emerald-200 flex flex-col justify-center">
           <div className="mb-8 text-4xl tablet:text-6xl font-black">Tiptop</div>
           <div className="mb-8 text-xl leading-relaxed">
@@ -41,11 +41,11 @@ const Work = () => {
             </a>
           </div>
         </div>
-        <div className="w-full small-laptop:w-1/2 ">
+        <div className="w-full small-laptop:w-1/2">
           <Image src={tiptopBanner} alt="Tiptop" layout="responsive" />
         </div>
       </div>
-      <div className="bg-slate-50 flex items-center flex-col-reverse small-laptop:flex-row mb-32 shadow-lg">
+      <div className="bg-slate-50 flex items-stretch flex-col-reverse small-laptop:flex-row mb-32 shadow-lg">
         <div className="w-full small-laptop:w-1/2 px-8 py-12 phone:px-12 phone:py-16 bg-sky-200 flex flex-col justify-center">
           <div className="mb-8 text-4xl tablet:text-6xl font-black">Rhino</div>
           <div className="mb-8 text-xl leading-relaxed">
@@ -81,7 +81,7 @@ const Work = () => {
           <Image src={rhinoBanner} alt="Rhino" layout="responsive" />
         </div>
       </div>
-      <div className="bg-slate-50 flex items-center flex-col-reverse small-laptop:flex-row mb-32 shadow-lg">
+      <div className="bg-slate-50 flex items-stretch flex-col-reverse small-laptop:flex-row mb-32 shadow-lg">
         <div className="w-full small-laptop:w-1/2 px-8 py-12 phone:px-12 phone:py-16 bg-indigo-200 flex flex-col justify-center">
           <div className="mb-8 text-4xl tablet:text-6xl font-black">
             Crypto Prices
@@ -122,7 +122,7 @@ const Work = () => {
           />
         </div>
       </div>
-      <div className="bg-slate-50 flex items-center flex-col-reverse small-laptop:flex-row mb-32 shadow-lg">
+      <div className="bg-slate-50 flex items-stretch flex-col-reverse small-laptop:flex-row mb-32 shadow-lg">
         <div className="w-full small-laptop:w-1/2 px-8 py-12 phone:px-12 phone:py-16 bg-rose-200 flex flex-col justify-center">
           <div className="mb-8 text-4xl tablet:text-6xl font-black">
             Fake Tweet Generator

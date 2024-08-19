@@ -17,7 +17,7 @@ const Footer = () => {
             </p>
             <span className="hidden phone:inline-block w-1 h-1 bg-white rounded-full mx-2"></span>
             <p>
-              Design stolen from{' '}
+              Design inspired by{' '}
               <a
                 href="https://stefivanov.com"
                 target="_blank"

@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Shashikanth Reddy - Frontend Developer based in India</title>
+        <title>Shashikanth Reddy</title>
       </Head>
       <Main />
       <About />
