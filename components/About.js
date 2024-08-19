@@ -5,24 +5,24 @@ const About = () => {
         <div className="w-full tablet:mr-8">
           <div className="mb-8 text-5xl tablet:text-6xl font-black">About.</div>
           <div className="text-xl leading-relaxed mb-8 tablet:mb-0">
-            👋 Hi! I&apos;m Shashikanth Reddy, a passionate frontend developer
-            based in India. I strive to construct web applications that are
-            appealing in design while maintaining their functionality. I&apos;ve
-            been working in frontend development for over a year now. I always
-            build projects to hone my skills.
+            👋 Hi! I&apos;m Shashikanth Reddy, a full-stack developer based in
+            the US. I focus on building web applications with a robust backend
+            and a polished frontend. I work with technologies like Spring Boot,
+            Django, Next.js and React to create well-rounded, efficient, and
+            scalable solutions.
           </div>
         </div>
         <div className="w-full text-xl leading-relaxed">
           <p className="mb-8">
-            Currently, I&apos;m pursuing a bachelor&apos;s degree in Information
-            Technology. I am interested in JavaScript technologies. Some
-            frontend technologies that I have worked with and would like to work
-            with in the future are Next.JS, React, Redux, Styled components,
-            Tailwind CSS, Firebase, etc.
+            Currently pursuing a master&apos;s degree in Computer Science at
+            Kennesaw State University, I am passionate about creating robust and
+            scalable full-stack applications. I&apos;m constantly looking to
+            enhance my skills and tackle new challenges..
           </p>
           <p>
-            I&apos;m actively seeking roles where I can broaden my knowledge and
-            utilize my skills. If you have any for me, please consider me.
+            I&apos;m actively seeking a summer internship where I can leverage
+            my full-stack skills and contribute to innovative projects. If you
+            have any opportunities, I&apos;d love to connect!.
           </p>
         </div>
       </div>
