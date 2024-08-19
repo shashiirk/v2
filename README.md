@@ -4,7 +4,7 @@
   </a>
 </p>
 
-![Shashikanth Reddy's portfolio banner](https://user-images.githubusercontent.com/48406108/160058749-383f1877-7096-4c34-9dcd-bb416e432492.jpg)
+![Shashikanth Reddy's portfolio banner](https://github.com/user-attachments/assets/2d2f28e6-6014-46df-a754-be2006fc57f0)
 
 👋 Hey there! Thanks for checking out my portfolio project. This repository contains all the source code for it.
 
